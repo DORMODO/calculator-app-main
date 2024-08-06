@@ -26,8 +26,10 @@ html {
   font-size: 62.5%;
 }
 
-button {
+button,
+h1 {
   color: inherit;
+  font-size: inherit;
 }
 
 .container {

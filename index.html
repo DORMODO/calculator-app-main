@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet" />
@@ -14,21 +11,21 @@
   </head>
   <body>
     <div class="container">
-      <div class="calc">
+      <main class="calc">
         <div class="calc__header">
-          <span>calc</span>
+          <h1>calc</h1>
 
           <div class="themes">
             <div class="themes__label">
               <span>THEME</span>
             </div>
             <div class="themes__toggleContent">
-              <div class="themes__numbers">
+              <nav class="themes__numbers">
                 <span class="themes__number">1</span>
                 <span class="themes__number">2</span>
                 <span class="themes__number">3</span>
-              </div>
-              <span class="themes__toggle" role="button" tabindex="0"></span>
+              </nav>
+              <span class="themes__toggle" role="button" tabindex="0" aria-label="Toggle theme"></span>
             </div>
           </div>
         </div>
@@ -91,7 +88,7 @@
             <span>=</span>
           </button>
         </div>
-      </div>
+      </main>
     </div>
 
     <script src="script.js"></script>
